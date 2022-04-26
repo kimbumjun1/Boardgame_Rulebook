@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<meta charset = "utf-8">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!--구글폰트에서 noto sans라는폰트사용--> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "index.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+        <div class = "wrap">
+            <div class = "intro_bg">
+                <div class = "header">
+                    <div class = "searchArea">
+                            <form action = "https://www.google.com/search" method="GET"> 
+                            <input type = "search" action="https://www.google.com/search" placeholder="Google Search" name="q">
+                            <span>검색</span>
+                            </form>
+                        </div>
+                        <ul class ="nav">
+                            <li><a href="#">게임하기</a>
+                                <ul> 
+                                    <li><a href="https://ko.boardgamearena.com/" target="_blank">보드게임아레나</a></li> <!--새로운창으로 웹 페이지열기-->
+                                    <li><a href="https://tichu.be/" target="_blank">titu.be</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="frame.html" target="_blank">RULE BOOK</a></li>
+                            <li><a href="https://divedice.net/" target="_blank">커뮤니티</a></li>
+                            <li><a href="https://www.divedice.com/main/" target="_blank">보드게임 구매하기</a></li>
+                        </ul> 
+                    </div>
+
+                <p></p>
+                
+                <div data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000">
+                    <div class = "move0">보드게임을 좋아하는 당신을 위한 서비스!</div>
+                </div>
+            </div>
+                <div class = "move1">
+                    <div data-aos="fade-right"><img src ="./image/games.PNG"></div>
+                </div>
+                <div class = "move2">
+                    <div data-aos="fade-right"><img src ="./image/arena.PNG">
+                </div> 
+            </div> 
+        <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+        </script>  
+    </body>
+</html>
